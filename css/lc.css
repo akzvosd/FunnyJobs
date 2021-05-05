@@ -1,0 +1,132 @@
+/*Личный кабинет css*/
+main {
+  margin: 0 7%;
+}
+.way,
+.inBasket,
+.status,
+.exit {
+  font-size: 16px;
+}
+
+.way {
+  margin-top: 40px;
+
+  line-height: 22px;
+}
+.personalInfo {
+  margin-top: 65px;
+  display: flex;
+}
+.aboutAccount {
+  margin-left: 20px;
+  display: table;
+}
+
+.numberAccount {
+  font-size: 12px;
+  line-height: 16px;
+}
+.nameAccount {
+  font-size: 36px;
+  line-height: 100%;
+}
+.greyText {
+  color: #7d7d7d;
+}
+.boldText {
+  margin-top: 26px;
+}
+.bonusInfo {
+  font-size: 12px;
+  margin-top: 4px;
+}
+.verticalSinh {
+  min-height: 10em;
+  display: table-cell;
+  vertical-align: middle;
+}
+.orderInfo {
+  margin-top: 66px;
+  display: flex;
+}
+
+.orderSearch .inBasket {
+  min-width: 255px;
+  min-height: 46px;
+  padding: auto;
+  margin-top: 8px;
+}
+.orderSearch input,
+.formRem input {
+  margin-top: 8px;
+  min-width: 255px;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: 1px solid #aaaaaa;
+  font-size: 18px;
+}
+.exit {
+  margin-top: 66px;
+  color: #d1244d;
+
+  line-height: 22px;
+}
+footer {
+  margin-top: 16px;
+}
+.orderStatus {
+  margin-left: 45px;
+}
+.numberOrder {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.status {
+  width: 255px;
+  height: 196px;
+  background: #e8e8e8;
+
+  border-radius: 8px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.status * {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 21px;
+}
+.pastStatuses {
+  text-decoration: line-through;
+  color: #aaaaaa;
+}
+.thisStatuses {
+  color: #0044bb;
+  font-weight: bold;
+}
+.nextStatuses {
+  color: black;
+}
+.buttonText {
+  font-size: 14px;
+}
+.nameAccount {
+  font-size: 36px;
+}
+.counterBonus {
+  font-weight: bold;
+  font-size: 18px;
+  font-style: normal;
+}
+.center {
+  position: center;
+  align-items: center;
+}
+
+/*Ремонт css*/
+
+.formRem {
+  margin-top: 45px;
+  margin-bottom: 120px;
+}

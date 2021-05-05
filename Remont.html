@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/lc.css">
+  <link rel="stylesheet" href="css/Headlines.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+  <title>FunnyJobs</title>
+</head>
+
+<body>
+  <div class="Remont">
+      <header class="header">
+      
+        <div class="headerUp">
+          <div class="logo">
+            <a href="index.html">
+              <img src="img/logo.svg" alt="logo" width="138.07px" height="45px">
+            </a>
+          </div>
+          <div class="nav">
+            <ul>
+              <li><a href="Sales.html">Акции</a></li>
+              <li><a href="Remont.html">Ремонт</a></li>
+              <li><a href="Trade-In.html">Trade-In</a></li>
+              <li><a href="Shops.html">Магазины</a></li>
+              <li><a href="Contacts.html">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="phoneInfo">
+            <img src="img/phone.svg" alt="imgPhone">
+            <div class="phone"><a href="tel:+79658077818">+7 965 807 78 18</a></div>
+          </div>
+          <div class="placeInfo">
+            <div class="city">Великий Новгород</div>
+            <div class="time">Пн−Сб 10:00−21:00, Вс 11:00−20:00</div>
+          </div>
+        </div>
+      
+        <div class="headerDown">
+      
+          <div class="catalogButton">
+            <img src="img/buttonCatalog.svg" alt="">
+            Каталог товаров
+          </div>
+      
+          <div class="search">
+            <input type="text" class="resized" placeholder="Apple iPhone">
+            <img src="img/search.svg" alt="">
+      
+          </div>
+          <div class="personalBlock">
+            <div class="rating"><img src="img/rating.svg" alt="rating">
+              <span class="ratingNum">3</span>
+            </div>
+            <div class="love"><img src="img/like.svg" alt="love"></div>
+            <div class="profile"><a href="personalAccount.html"><img src="img/profile.svg" alt="profile"></a></div>
+            <div class="basket"><img src="img/basket.svg" alt="basket"><span class="basketNum">3</span></div>
+          </div>
+        </div>
+      </header>
+  
+    <main >
+      <div class="way" id="HeadRemont"><span class="greyText">Главная</span> / Ремонт</div>
+      <div class="pageRemont">
+    <div class="formPage ">
+      <div class="textRem">
+        <div class="titleHeadlines">Ремонт</div>
+        <div class="HeadlinesText">Если у вас сломался телефон, ноутбук, планшет или другая техника — не спешите её выбрасывать, это наверняка можно
+        починить!</div>
+        <div class="HeadlinesText">Опишите свою проблему, и мы перезвоним вам!</div>
+      </div>
+
+      <form class="formRem"> 
+        <div class="form1">
+          <div class="Name">
+          <label class="technicalSpecifications" for="name">Имя Фамилия</label>
+          <div><input class="inputName" type="text"  class="input" name="name" required placeholder="Вася Васин"></div>
+          </div>
+          <div class="number">
+          <label class="technicalSpecifications" for="number">Номер телефона</label>
+          <div><input class="inputnumber" type="number" name="number" required placeholder="+7 (___) ___ - __ - __"></div>
+          </div>
+        </div>
+        <div >
+          <label class="technicalSpecifications formMargin" for="modelTelephone">Модель телефона</label>
+          <div><input class="inputModel" type="text" name="modelTelephone" required placeholder="iPhone 6S"></div>
+        </div>
+        <div>
+          <label class="technicalSpecifications formMargin" for="comment">Комментарий</label>
+          <div><input class="inputComment" type="text" name="comment" required placeholder="Опишите проблемы"></div>
+        </div>
+        <button class="buttonSubmit" type="submit"><img src="img/build.svg"> <span id="submit"> Отправить</span></button>
+      </form>
+      </div>
+      </div>
+    </main>
+
+
+    <footer class="footerRemont">
+      <div class="block">
+        <div class="contacts messenger"><img class="instagram" src="img/instagram.svg" alt=""><img class="vk"
+            src="img/vk.svg" alt=""></div>
+
+        <div class="contacts numberTel"><a href="tel:+79658077818">+7 965 807 78 18</a></div>
+      </div>
+      <div class="block">
+        <div class="contacts medium">О компании</div>
+        <div class="contacts normal ">Каталог</div>
+        <div class="contacts normal"><a href="Remont.html">Ремонт</a></div>
+        <div class="contacts normal"><a href="Trade-In.html">Trade-In</a></div>
+        <div class="contacts normal"><a href="Contacts.html">Контакты</a></div>
+        <div class="contacts normal">Реквизиты</div>
+      </div>
+
+      <div class="block">
+        <div class="contacts medium">Каталог</div>
+        <div class="contacts normal ">Смартфоны</div>
+        <div class="contacts normal">Ноутбуки</div>
+        <div class="contacts normal">Аксессуары</div>
+        <div class="contacts normal">Техника</div>
+        <div class="contacts normal">Планшеты</div>
+      </div>
+      <div class="block">
+        <div class="contacts medium">Партнёрам</div>
+        <div class="contacts normal">Партнёрская программа</div>
+        <div class="contacts normal">Как начать сотрудничество</div>
+        <div class="contacts normal">Преимущества</div>
+        <div class="contacts normal">Пользовательское соглашение</div>
+      </div>
+
+    </footer>
+  </div>
+</body>
+
+</html>
