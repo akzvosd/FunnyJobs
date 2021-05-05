@@ -1,0 +1,545 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "PT Sans";
+}
+.header {
+  margin: 0 7%;
+  white-space: nowrap;
+}
+.headerUp {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.nav {
+  margin-left: 9%;
+  width: 41%;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0%;
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  font-size: 18px;
+
+  margin-right: 8%;
+}
+.phoneInfo {
+  margin-left: 147px;
+  display: flex;
+  font-size: 14px;
+  line-height: 18px;
+}
+.placeInfo {
+  margin-left: 4%;
+  font-size: 14px;
+  line-height: 18px;
+}
+.phoneInfo img {
+  margin-right: 4%;
+}
+.time {
+  color: grey;
+}
+.city {
+  text-align: right;
+}
+.headerDown {
+  margin-top: 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.catalogButton,
+.menu-btn {
+  width: 188px;
+  height: 40%;
+  text-align: center;
+  background-color: #ffd75b;
+  border-radius: 8px;
+  line-height: 2.5;
+}
+.catalogButton img {
+  margin-right: 7px;
+}
+.search {
+  display: flex;
+  width: 60%;
+  margin-left: 5%;
+}
+.search img {
+  width: 15px;
+  margin-left: -25px;
+}
+.resized {
+  padding: 9px 13px;
+  border: 1px solid #7d7d7d;
+  width: 700px;
+  margin-left: -3%;
+  border-radius: 8px;
+}
+.personalBlock {
+  min-width: 225px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating {
+  align-items: center;
+}
+.love,
+.profile,
+.basket {
+  margin-left: 16%;
+}
+.basket {
+  background: #ffd75b;
+  border-radius: 4px;
+  padding: 7px 20px;
+}
+.basketNum,
+.ratingNum {
+  position: absolute;
+  margin-left: 4px;
+}
+.basket img {
+  margin-left: -10px;
+}
+
+.smartphone,
+.accessories,
+.laptops,
+.technic,
+.tablets {
+  width: 232px;
+  height: 232px;
+  background: #e8e8e8;
+  border-radius: 8px;
+  display: block;
+  text-align: center;
+  padding-top: 12px;
+}
+.catalog {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 7%;
+}
+.smartphone img {
+  background-image: no-repeat bottom;
+}
+.pictures {
+  margin-top: 44px;
+}
+
+.slider {
+  margin: 0 7%;
+  background-color: #ffd75b;
+  height: 330px;
+  border-radius: 16px;
+}
+
+.locationFN {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 33px;
+}
+.geo {
+  margin: 0px 7%;
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+.Volna,
+.RUS,
+.Marmelad {
+  display: block;
+}
+.shop {
+  margin-bottom: 13px;
+}
+
+.categories {
+  margin-top: 62px;
+  font-weight: bold;
+  font-size: 36px;
+  margin: 0 7%;
+}
+.lider {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.tovar {
+  margin-top: 60px;
+}
+.description {
+  font-weight: normal;
+  font-size: 16px;
+  max-width: 193px;
+  text-align: center;
+  margin-top: 12px;
+}
+.viewAll {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #0044bb;
+  margin-top: 21px;
+}
+.price {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.inBasket {
+  line-height: 18px;
+  height: 34px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  background-color: #ffd75b;
+  margin-top: 12px;
+  padding: 8px 16px;
+  border: 1px solid #ffd75b;
+  border-radius: 4px;
+}
+.buttonbasket {
+  margin: 0px 8px;
+}
+.page footer {
+  margin-top: 140px;
+}
+
+footer {
+  border-top: 0.5px solid #161616;
+  opacity: 0.4;
+  margin: 0 7%;
+  display: flex;
+  justify-content: space-between;
+}
+.block {
+  margin-top: 64px;
+  margin-bottom: 136px;
+}
+.normal {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 8px;
+}
+.medium {
+  margin-bottom: 11px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+.numberTel {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+}
+.messenger {
+  margin-bottom: 25px;
+}
+.instagram {
+  margin-right: 18px;
+}
+.sales {
+  text-decoration-line: line-through;
+}
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.firstArrow {
+  margin-left: 20px;
+}
+.secondArrow {
+  margin-right: 20px;
+}
+.iphone12 {
+  margin-left: 316px;
+}
+.firstSlider {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+}
+.bought {
+  display: block;
+}
+
+.menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  transition: 0.5s;
+  transform: translateX(-100%);
+}
+.menu_active {
+  transform: translateX(0%);
+}
+.menu-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  flex-direction: column;
+}
+.menu-list a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.menu-btn {
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  position: absolute;
+  right: -35px;
+  top: 10px;
+}
+.content {
+  transition: 0.5s;
+  position: relative;
+  z-index: 0;
+}
+.content_active {
+  transform: translateX(30%);
+}
+
+.menu2,
+.menu3,
+.menu4 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  transition: 0.5s;
+  transform: translateX(-200%);
+  display: table;
+}
+.menu_active2,
+.menu_active3,
+.menu_active4 {
+  transform: translateX(150%);
+}
+
+/*Shops css*/
+iframe {
+  margin-top: 20px;
+}
+.pageShops footer {
+  margin-top: 71px;
+}
+/*Contacts css*/
+.yandexCart {
+  margin-top: 71px;
+  margin-bottom: 70px;
+}
+/*Trade-In css*/
+.form2 .input {
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 22px;
+  width: 472px;
+}
+.form {
+  margin: 0 7%;
+  margin-bottom: 58px;
+}
+.form2 {
+  display: flex;
+
+  margin-top: 46px;
+}
+.rightForm {
+  display: block;
+}
+.leftForm {
+  display: block;
+  margin-right: 70px;
+}
+.pageTradeIn footer {
+  margin-top: 58px;
+}
+.blockTradeIn {
+  background: #ffd75b;
+  border-radius: 8px;
+  height: 168px;
+  width: 1017px;
+  margin: 0 7%;
+  margin-bottom: 52px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+.firstPhone {
+  margin-bottom: 7px;
+}
+.secondPhone {
+  margin-bottom: 19px;
+}
+.tradeInfo {
+  margin: 0 7%;
+}
+.arrowDown {
+  margin-left: -30px;
+}
+
+.TradeInMobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  margin-right: 20px;
+}
+
+/*Remont css*/
+.form1 {
+  display: flex;
+}
+.number {
+  margin-left: 28px;
+}
+.inputModel,
+.inputComment {
+  width: 539px;
+}
+.inputComment {
+  height: 108px;
+}
+.inputName,
+.inputModel {
+  margin-bottom: 16px;
+}
+.buttonSubmit {
+  padding: 8px 16px;
+  width: 539px;
+  background: #ffd75b;
+  border: 1px solid #ffd75b;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 16px 0px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+.pageRemont {
+  /*Выравнивание по центру*/
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+.textRem {
+  width: 550px;
+  margin: 0 -38px;
+}
+#HeadRemont {
+  margin-left: 0px;
+}
+#submit {
+  margin-left: 5px;
+}
+
+/*Sales css*/
+.photoSales {
+  background: radial-gradient(50% 50% at 50% 50%, #ffc100 0%, #fdd149 100%);
+  border-radius: 16px;
+  height: 291px;
+  width: 100%;
+}
+#secondSales {
+  margin-top: 64px;
+  background: url(../img/cristmas.png);
+  border-radius: 16px;
+}
+.photoSales {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+.descriptionSales .boldText {
+  font-size: 36px;
+  line-height: 47px;
+}
+.inPhotoDescriotion {
+  color: white;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+  font-size: 48px;
+  line-height: 62px;
+  font-weight: bold;
+  height: 291px;
+}
+.pageSales {
+  margin: 0 7%;
+}
+.first {
+  margin-top: 40px;
+}
+.titleSales {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+}
+.firstPrice {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+}
+.SecondPrice {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-decoration-line: line-through;
+  color: #161616;
+
+  opacity: 0.3;
+}
+#footerSales {
+  margin-top: 64px;
+}
