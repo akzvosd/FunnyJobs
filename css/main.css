@@ -1,6 +1,16 @@
 * {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "PT Sans";
+  src: url("/fonts/PTSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PT Sans Bold";
+  src: url(/fonts/PTSans-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+
 body {
   font-family: "PT Sans";
 }
@@ -233,6 +243,7 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
 .block {
   margin-top: 64px;
   margin-bottom: 136px;
